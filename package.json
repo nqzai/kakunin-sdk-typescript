@@ -1,0 +1,82 @@
+{
+  "name": "@kakunin/sdk",
+  "version": "0.2.0",
+  "description": "Official TypeScript SDK for the Kakunin AI Agent KYC platform \u2014 API client plus drop-in certificate enforcement middleware (@kakunin/sdk/verify)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./verify": {
+      "types": "./dist/verify/index.d.ts",
+      "import": "./dist/verify/index.mjs",
+      "require": "./dist/verify/index.js"
+    },
+    "./verify/supabase": {
+      "types": "./dist/verify/supabase.d.ts",
+      "import": "./dist/verify/supabase.mjs",
+      "require": "./dist/verify/supabase.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/verify/index.ts src/verify/supabase.ts --format cjs,esm --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm run typecheck"
+  },
+  "keywords": [
+    "ai-agents",
+    "behavioral-monitoring",
+    "compliance",
+    "eu-ai-act",
+    "kakunin",
+    "kyc",
+    "mica",
+    "middleware",
+    "verification",
+    "x509"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://kakunin.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nqzai/kakunin-sdk-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nqzai/kakunin-sdk-typescript/issues"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "@supabase/supabase-js": ">=2.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@supabase/supabase-js": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
