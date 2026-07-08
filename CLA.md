@@ -6,7 +6,7 @@
 > reviewed and you have replaced the placeholders below.
 
 Thank you for your interest in contributing to software projects managed by
-**[LEGAL ENTITY NAME]** ("Kakunin", "we", "us"). This Contributor License
+**Immortal Reality PA LLC** ("Kakunin", "we", "us"). This Contributor License
 Agreement ("Agreement") sets out the terms under which You provide
 Contributions to us. It protects both You and Kakunin, and it preserves our
 ability to offer the software under open-source and commercial licenses.
