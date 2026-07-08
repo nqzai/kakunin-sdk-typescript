@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'   # e.g. v0.2.0
 
+permissions:
+  contents: read
+
 jobs:
   test:
     name: Test before publish

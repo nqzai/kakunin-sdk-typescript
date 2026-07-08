@@ -1,5 +1,7 @@
 # @kakunin/sdk
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nqzai/kakunin-sdk-typescript/badge)](https://scorecard.dev/viewer/?uri=github.com/nqzai/kakunin-sdk-typescript)
+
 TypeScript SDK for the [Kakunin](https://kakunin.ai) AI agent compliance API — X.509 certificate issuance, behavioral monitoring, and MiCA / EU AI Act compliance reporting.
 
 ```bash
