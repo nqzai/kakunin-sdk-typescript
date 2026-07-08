@@ -21,7 +21,7 @@ jobs:
       id-token: write        # publish results to OpenSSF (OIDC)
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
 
