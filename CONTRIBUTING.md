@@ -32,3 +32,9 @@ npm run typecheck  # or: mypy kakunin/
 ## What belongs elsewhere
 
 Features that touch the hosted platform (new API endpoints, compliance report formats, billing) are not implementable from this repository — open an issue to discuss and we'll route it.
+
+## Claiming an issue
+
+Before you start working on an issue, comment `/assign` on it — our bot assigns it
+to you automatically. This prevents two people building the same thing (which has
+already happened a couple of times). Changed your mind? Comment `/unassign`.
