@@ -1,8 +1,11 @@
 # @kakunin/sdk
 
+[![npm version](https://img.shields.io/npm/v/@kakunin/sdk)](https://www.npmjs.com/package/@kakunin/sdk)
+[![License](https://img.shields.io/npm/l/@kakunin/sdk)](https://github.com/nqzai/kakunin-sdk-typescript/blob/main/LICENSE)
+[![Docs](https://img.shields.io/badge/docs-kakunin.ai-blue)](https://www.kakunin.ai/docs)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nqzai/kakunin-sdk-typescript/badge)](https://scorecard.dev/viewer/?uri=github.com/nqzai/kakunin-sdk-typescript)
 
-TypeScript SDK for the [Kakunin](https://kakunin.ai) AI agent compliance API — X.509 certificate issuance, behavioral monitoring, and MiCA / EU AI Act compliance reporting.
+TypeScript SDK for the [Kakunin](https://kakunin.ai) AI agent compliance API — X.509 certificate issuance, behavioral monitoring, and MiCA / EU AI Act compliance reporting. Talks to the hosted service; **[free sandbox keys](https://www.kakunin.ai/dashboard/api-keys)**, no self-hosting required. Need your own control plane? See [kakunin-core](https://github.com/nqzai/kakunin-core).
 
 ```bash
 npm install @kakunin/sdk
