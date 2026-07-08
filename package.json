@@ -1,7 +1,7 @@
 {
   "name": "@kakunin/sdk",
   "version": "0.2.0",
-  "description": "Official TypeScript SDK for the Kakunin AI Agent KYC platform \u2014 API client plus drop-in certificate enforcement middleware (@kakunin/sdk/verify)",
+  "description": "Official TypeScript SDK for the Kakunin AI Agent KYC platform — API client plus drop-in certificate enforcement middleware (@kakunin/sdk/verify)",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -61,7 +61,7 @@
     "@supabase/supabase-js": "^2.0.0",
     "@types/node": "^26.1.0",
     "tsup": "^8.0.0",
-    "typescript": "^5.4.0",
+    "typescript": "^6.0.0",
     "vitest": "^4.1.10"
   },
   "peerDependencies": {
