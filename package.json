@@ -55,7 +55,7 @@
     "url": "https://github.com/nqzai/kakunin-sdk-typescript/issues"
   },
   "dependencies": {
-    "zod": "^3.23.0"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@supabase/supabase-js": "^2.0.0",
