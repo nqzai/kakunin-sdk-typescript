@@ -1,0 +1,13 @@
+{
+  "projectName": "kakunin-sdk-typescript",
+  "projectOwner": "nqzai",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": true,
+  "contributors": []
+}
