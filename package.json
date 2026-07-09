@@ -49,10 +49,10 @@
   "homepage": "https://kakunin.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nqzai/kakunin-sdk-typescript.git"
+    "url": "git+https://github.com/kakunin-ai/kakunin-sdk-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/nqzai/kakunin-sdk-typescript/issues"
+    "url": "https://github.com/kakunin-ai/kakunin-sdk-typescript/issues"
   },
   "dependencies": {
     "zod": "^4.4.3"
