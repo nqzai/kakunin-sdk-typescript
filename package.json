@@ -61,7 +61,7 @@
     "@supabase/supabase-js": "^2.0.0",
     "@types/node": "^26.1.0",
     "tsup": "^8.0.0",
-    "typescript": "^6.0.0",
+    "typescript": "^7.0.2",
     "vitest": "^4.1.10"
   },
   "peerDependencies": {
