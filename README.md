@@ -1,4 +1,4 @@
-# @kakunin/sdk
+# @kakunin/sdk — X.509 identity & compliance for AI agents (TypeScript)
 
 [![npm version](https://img.shields.io/npm/v/@kakunin/sdk)](https://www.npmjs.com/package/@kakunin/sdk)
 [![License](https://img.shields.io/npm/l/@kakunin/sdk)](https://github.com/nqzai/kakunin-sdk-typescript/blob/main/LICENSE)
